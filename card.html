@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card{
+    width: 40%;
+    color: white;
+    background-color: #212121;
+    /* border-radius: 30px; */
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 8px 10px 6px  rgba(0, 0, 0, 0.1);
+}
+div img{
+    border-radius: 5px 5px 0 0 ;
+}
+
+.container{
+    padding: 15px;
+    /* letter-spacing: 1px; */
+}
+.container h4{
+    text-align: center;
+    padding: 10px 0px;
+}
+.container p{
+    text-align: justify;
+    word-spacing: 0px;
+    letter-spacing: 1px;
+}
+.cards{
+    display: flex;
+    flex-wrap: nowrap;
+    /* justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+}
+img{
+    width: 100%;
+    min-height: 250px;
+    object-fit: cover;
+}
+@media only screen and (max-width: 450px)  {
+    .cards{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 100%;
+    }
+}
+</style>
+<body>
+    <div class="cards">
+        <div class="card">
+            <img src="images/Pcimage.jpeg"  alt="pc image" >
+            <div class="container">
+            <h4><b> Web Devloper</b></h4> 
+            <p> vishal sahrma is the best coder Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quam maiores id fugit delectus provident atque itaque quaerat, quasi veniam temporibus incidunt accusantium, nesciunt quas esse? Atque nemo vitae voluptatibus amet delectus minus a molestias!</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/AppDevlopment.jpeg"  alt="pc image" >
+            <div class="container">
+            <h4><b> APP Devloper</b></h4> 
+            <p> vishal sahrma is the best coder Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quam maiores id fugit delectus provident atque itaque quaerat, quasi veniam temporibus incidunt accusantium, nesciunt quas esse? Atque nemo vitae voluptatibus amet delectus minus a molestias!</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/UiUx.jpeg"  alt="pc image" >
+            <div class="container">
+            <h4><b> UI UX Devloper</b></h4> 
+            <p> vishal sahrma is the best coder Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quam maiores id fugit delectus provident atque itaque quaerat, quasi veniam temporibus incidunt accusantium, nesciunt quas esse? Atque nemo vitae voluptatibus amet delectus minus a molestias!</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
